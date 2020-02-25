@@ -7,7 +7,7 @@ using namespace std;
 
 int r,g,b;
 QRgb color;
-QRgb black=qRgb(0,0,0);;
+QRgb black=qRgb(0,0,0);
 QImage image(411,341,QImage::Format_RGB888);
 QImage pallete(411,341,QImage::Format_RGB888);
 int coordinates[20][2];

@@ -137,11 +137,9 @@ void MainWindow::dda_circle(float r)
   i=0;
 
   do{
-
       val=pow(2,i);
       i++;
-
-      }while(val<r);
+     }while(val<r);
 
   eps = 1/pow(2,i-1);
 

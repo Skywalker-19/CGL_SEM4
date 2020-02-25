@@ -50,7 +50,7 @@ void MainWindow::on_pushButton_clicked()
             Bresenham((length/2)+(length/4),(breadth/2)-(breadth/4),(length/4),(breadth/4));
 
 
-            int x0=0,y0=0;
+                int x0=0,y0=0;
                 int x1=0+length,y1=0;
                 int x2=0+length,y2=0+breadth;
                 int x3=0,y3=0+breadth;
